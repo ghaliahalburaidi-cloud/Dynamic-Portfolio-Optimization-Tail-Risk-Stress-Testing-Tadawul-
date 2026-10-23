@@ -1,0 +1,7 @@
+```text
+# requirements.txt
+numpy
+pandas
+scipy
+boto3
+python-dotenv
