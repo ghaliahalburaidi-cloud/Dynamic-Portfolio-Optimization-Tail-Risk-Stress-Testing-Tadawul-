@@ -9,7 +9,6 @@ from scipy.stats import skew, kurtosis
 # Symbols used strictly for the Yahoo Finance API
 yf_symbols = ['1120.SR', '2010.SR', '2222.SR', '7010.SR']
 
-# Exported as readable names so other files and plots display names automatically
 tickers = ['Al Rajhi', 'SABIC', 'Aramco', 'STC']
 
 start_date = '2023-09-14'
@@ -46,7 +45,7 @@ def run_eda():
     # Plot Correlation Matrix and Return Distributions
     fig, axes = plt.subplots(1, 2, figsize=(16, 6))
 
-    # Heatmap and Histograms will now show company names automatically
+    # Heatmap and Histograms 
     sns.heatmap(log_returns.corr(), annot=True, cmap='coolwarm', fmt=".2f", vmin=-1, vmax=1, ax=axes[0])
     axes[0].set_title('Correlation Matrix of Log Returns')
 
