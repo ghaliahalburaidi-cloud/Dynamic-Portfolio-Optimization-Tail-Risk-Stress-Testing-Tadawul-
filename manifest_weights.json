@@ -1,0 +1,12 @@
+{
+    "fileLocations": [
+        {
+            "URIs": [
+                "s3://ksu-gp-project-2026/portfolio_weights.csv"
+            ]
+        }
+    ],
+    "globalUploadSettings": {
+        "format": "CSV"
+    }
+}

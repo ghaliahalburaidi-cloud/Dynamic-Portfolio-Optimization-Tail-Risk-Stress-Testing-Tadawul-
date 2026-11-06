@@ -1,0 +1,12 @@
+{
+    "fileLocations": [
+        {
+            "URIs": [
+                "s3://ksu-gp-project-2026/monte_carlo_results.csv"
+            ]
+        }
+    ],
+    "globalUploadSettings": {
+        "format": "CSV"
+    }
+}
