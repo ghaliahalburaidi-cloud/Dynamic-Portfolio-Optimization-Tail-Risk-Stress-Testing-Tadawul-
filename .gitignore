@@ -1,16 +1,16 @@
 # .gitignore
-
+ 
 # Environments
 .env
 .venv/
 venv/
 ENV/
-
+ 
 # Python cache
 __pycache__/
 *.py[cod]
 *$py.class
-
+ 
 # OS generated files
 .DS_Store
 .DS_Store?
@@ -19,3 +19,4 @@ __pycache__/
 .Trashes
 ehthumbs.db
 Thumbs.db
+ 
