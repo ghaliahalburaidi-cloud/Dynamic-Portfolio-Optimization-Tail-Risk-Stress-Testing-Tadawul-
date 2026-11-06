@@ -1,7 +1,8 @@
-```text
-# requirements.txt
 numpy
 pandas
 scipy
+matplotlib
+seaborn
+yfinance
 boto3
 python-dotenv
