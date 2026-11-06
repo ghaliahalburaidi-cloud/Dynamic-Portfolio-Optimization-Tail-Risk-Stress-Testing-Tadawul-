@@ -43,7 +43,7 @@ Graduation project, Department of Statistics and Operations Research, King Saud 
 | `monte_carlo.py` | Main pipeline: simulation, VaR/CVaR with bootstrap CIs, normal benchmark, 2×2 decomposition, QuickSight exports, AI memo |
 | `extensions.py` | Robustness and validation analyses (Shapley, min-CVaR, grid, crisis and historical scenarios, block and parameter bootstraps, VaR backtest) |
 | `ai_report_generator.py` | Amazon Bedrock memorandum with automated number verification |
-| `manifest_*.json` | QuickSight S3 manifest files |
+| `manifest_template.json` | Template for the QuickSight S3 manifest (replace the bucket and file name with your own) |
 
 ## Installation & Usage
 ```bash
